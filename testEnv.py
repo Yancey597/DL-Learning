@@ -22,4 +22,4 @@ class MyData(Dataset):
 root_dir = "dataset/train"
 label_dir = "ants"
 ants_dataset = MyData(root_dir, label_dir)
-print(ants_dataset[0])
+print(ants_dataset[0])  # 打印数据集的长度
